@@ -1,0 +1,13 @@
+body {
+    font-family: $font;
+    margin: 0 auto;
+    background: #fff;
+    max-width: 1920px; 
+    min-width: 320px;   
+}
+
+.clearfix {
+    content: "";
+    display: table;
+    clear: both;  
+}

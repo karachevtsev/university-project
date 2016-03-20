@@ -1,0 +1,397 @@
+@media (min-width: 800px) {
+
+//******** header media style min-width: 800px
+        .main-header {
+            .container {
+                    padding: 0 22px; 
+                .main-info {
+                    width: 100%;
+                    padding: 0; 
+                    .logo,
+                    .big-heading {
+                        float: left;
+                    }
+                    .social {
+                        float: right;
+                        margin-top: 12px;
+                    }
+                    .big-heading {
+                        h1 {
+                            width: auto;
+                            margin-left: 22px;
+                            font-size: 26px;   
+                            line-height: 55px;
+                            border: none;
+                        }
+                    }
+                }
+            }
+        }
+        
+//******** header media style min-width: 800px  
+
+
+//******** banner media style min-width: 800px 
+        .banner {
+            .container {
+                padding: 0 22px; 
+                padding-top: 90px;
+                .banner-title,
+                .banner-text {
+                    width: 52%;
+                    text-align: left;
+                    padding: 0;  
+                }
+                .banner-title {
+                    font-size: 45px;
+                    margin-bottom: 10px; 
+                }
+                .banner-text {
+                    font-size: 25px;
+                    line-height: 36px;
+                }
+                .banner-form {
+                    left: 100%;
+                    top: 32px; 
+                    width: 43%;
+                }
+            }
+        }
+//******** banner media style min-width: 800px
+
+
+
+//******** about media style min-width: 800px
+        .about {
+            padding-top: 14px;
+            .container {
+                padding: 0 22px; 
+                .about-title, 
+                .about-text {
+                    text-align: left;
+                    width: 50%; 
+                }
+            }
+        }
+//******** about media style min-width: 800px
+
+
+
+//******** features media style min-width: 800px
+        .features {
+            text-align: left;
+            .container {
+                padding: 0 22px; 
+                .features-row {
+                    .item {
+                        margin-bottom: 30px; 
+                        // outline: 1px solid lime;
+                        .item-image,
+                        .item-info {
+                            display: inline-block;
+                            vertical-align: top; 
+                        }
+                        .item-info {
+                            width: 55%;
+                            .item-text {
+                                padding: 0;
+                                margin-bottom: 18px; 
+                            } 
+                        }
+                        .item-image {
+                            padding-top: 12px;
+                            margin-right: 18px;  
+                        }
+                        
+                    }
+                    
+                }
+            }
+        }
+//******** features media style min-width: 800px
+
+
+
+//******** feedbacks media style min-width: 800px
+        .feedbacks {
+            text-align: left;
+            background: linear-gradient(to bottom, #fff 0%, #fff calc(100% - 190px), #f2f2f2 calc(100% - 190px), #f2f2f2 100%);
+            .container {
+                padding: 0 22px;
+                .feedbacks-slider {
+                    .slider-title {
+                        float: left;
+                        line-height: 42px; 
+                    }
+                    .slider-nav {
+                        float: right;
+                        text-align: center;
+                        margin: 0; 
+                    }
+                    .feedbacks-text {
+                        width: 70%;
+                        margin-bottom: 90px;  
+                    }
+                }
+                .action-button {
+                    a {
+                        max-width: 700px;
+                        font-size: 20px;
+                        line-height: 42px;
+                        padding: 10px 30px;
+                        
+                    }
+                    a:after {
+                        display: inline-block;
+                        margin-left: 22px;  
+                    }
+                }
+                .action-button:after {
+                    left: 100%;
+                    margin-left: -220px; 
+                }
+            }
+        }
+//******** feedbacks media style min-width: 800px
+
+
+
+//******** footer media style min-width: 800px
+        .main-footer {
+            .container {
+                padding: 0 22px; 
+                .main-info {
+                    padding: 0;
+                    margin: 0; 
+                    text-align: left;
+                    .logo,
+                    .big-heading,
+                    .footer-info-wrapper {
+                        display: inline-block;
+                        vertical-align: top;                        
+                    }
+                    .logo {
+                         a.logo-link {
+                            width: 63px;
+                            height: 63px;
+                            margin: 0 auto;
+                            border: 2px solid #fff;
+                            border-radius: 50%;
+                            line-height: 63px;
+                            font-size: 26px;
+                            text-align: center;
+                            color: #fff;
+                            text-decoration: none;
+                           
+                        }
+                    }
+                    .big-heading {
+                        h1 {
+                            width: 160px;
+                            margin-left: 10px;
+                            font-size: 26px;   
+                            line-height: 35px;
+                            border: none;
+                            border-right: 1px solid #3070a8;
+                            padding-right: 18px;
+                            margin-right: 18px;   
+                        }
+                    }
+                    .footer-info-wrapper {
+                        .footer-copyright {
+                            max-width: 450px; 
+                            }
+                            .social {
+                                margin-bottom: 0;
+                                float: none;
+                            }
+                    }   
+                }
+            }
+        }
+//******** footer media style min-width: 800px
+}   
+//***************************** media style min-width: 800px
+
+
+
+//***************************** media style min-width: 1000px
+@media (min-width: 1000px) {
+//******** header media style min-width: 1000px
+        .main-header {  
+            .container {
+                padding: 0 5px;
+                max-width: 990px; 
+                margin: 0 auto;
+                .main-info {
+                    .social {
+                        a.social-btn:hover {
+                            opacity: 0.7; 
+                        }
+                    }
+                }
+            }
+        }
+//******** header media style min-width: 1000px  
+
+
+
+//******** banner media style min-width: 1000px 
+        .banner {
+            
+            .container {
+                padding: 0 5px;
+                padding-top: 60px; 
+                max-width: 990px; 
+                margin: 0 auto;
+                .banner-title {
+                    h2 {
+                        font-size: 50px;
+                    }
+                }
+                .banner-text {
+                    font-size: 30px;
+                    line-height: 40px;
+                }
+                .banner-form {
+                    width: 360px;
+                    margin-left: -370px;
+                    padding-top: 25px; 
+                    .banner-form-title {
+                        h4 {
+                            font-size:  25px;
+                        }
+                    }
+                    .registration-form {
+                        .btn {
+                            margin-bottom: 28px; 
+                        }
+                        .btn:hover{
+                            background: #E73F2f; 
+                        }
+                    } 
+                }
+
+            }
+        }
+//******** banner media style min-width: 1000px
+
+
+
+//******** about media style min-width: 1000px
+        .about {
+            .container {
+                padding: 0 5px;
+                max-width: 990px; 
+                margin: 0 auto; 
+            }
+        }
+//******** about media style min-width: 1000px
+
+
+
+//******** features media style min-width: 1000px
+        .features {
+            .container {
+                padding: 0 5px;
+                max-width: 990px; 
+                margin: 0 auto;
+                .features-title {
+                    h5 {
+                        font-size: 25px;
+                    }
+                }
+                .features-row {
+                    .item {
+                        text-align: center;
+                        width: 29%;
+                        float: left;
+                        margin-right: 62px; 
+                        .item-info {
+                            width: auto;
+                            .item-text {
+                                padding: 0;
+                            }
+                            .view {
+                                a:hover {
+                                    background: #f2f2f2;
+                                    border: 1px solid #d3d1d1;
+                                }
+                            }
+                        }
+                        .item-image,
+                        .item-info {
+                            display: block;
+                        }
+                        .item-image {
+                            margin-right: 0;
+                            padding: 0;
+                        }
+                    }
+                    .item:last-child {
+                        margin-right: 0;
+                        .item-info {
+                            .item-text {
+                                overflow: hidden;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+//******** features media style min-width: 1000px
+
+
+
+//******** feedbacks media style min-width: 1000px
+        .feedbacks {
+            .container {
+                padding: 0 5px;
+                max-width: 990px; 
+                margin: 0 auto;
+                .feedbacks-slider {
+                    .slider-title {
+                        font-size: 25px;
+                    }
+                    .feedbacks-text {
+                        width: 75%; 
+                    }
+                }
+                .action-button {
+                    a {
+                        font-size: 25px;
+                    }
+                    a:hover{
+                        background: #E73F2f; 
+                    }
+                }
+            }
+        }
+
+        .main-footer {
+            .container {
+                padding: 0 5px;
+                max-width: 990px; 
+                margin: 0 auto;
+                .main-info {
+                    padding: 0;
+                    .footer-info-wrapper {
+                        padding-top: 12px; 
+                        .social {
+                            a.social-btn:hover {
+                                opacity: 0.7; 
+                            }
+                        }
+                        .footer-copyright {
+                            max-width: 650px;
+                            a:hover {
+                                color: #f2f2f2;
+                            }
+                        }
+                    }   
+                }
+            }
+        }
+//******** feedbacks media style min-width: 1000px      
+}
+//***************************** media style min-width: 1000px
